@@ -1,0 +1,110 @@
+<!DocTYPE
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,intial-scale=1.0">
+        <title>portifolio</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+            <ul>
+                <li>
+                    <ahref="#home">HOme</a></li>
+                    <li>
+                        <ahref="#projects">projects</li><a>
+                            <li>
+                                <ahref="#about">About</a></li>
+                                <li>
+                                    <ahref="#contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </header>
+                        <sedction id="home">
+                            <h1>Welcome to my portifolio!</h1>
+                            <p>I'm a frontend developer creating many beautiful websites for many apps</p>
+                        </section>
+                        <section> id="projects">
+                            <h1>My projects</h1>
+                            <div class="project-grid">
+                                <div class="project">
+                                    <img
+                                    src="project1.jpg"alt="project1">
+                                    <h2>project1</h2>
+                                    <p>p raju businessman realstater</p>
+                                </div>
+                                <div class="project">
+                                    <img
+                                    src="project2.jpg"alt="project2">
+                                    <h2>project2</h2>
+                                    <p>p raju businessman realstater</p>
+                                </div>
+                                <div class="project">
+                                    <img
+                                    src="project3.jpg"alt="project3">
+                                    <h2>project3</h2>
+                                    <p>p raju businessman realstater</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="about">
+                            <h1>About Me</h1>
+                            <p>p srikar biggest entrepuner in the whole world
+                            </p>
+                        </section>
+                        <secttion id="contact">
+                            <h1>get in Touch</h1>
+                            <p>p vydesh biggest entrepunerv in the whole world
+                            </p>
+                            <form>
+                            </selection>
+                            <footer>
+                                <p>&copy;2024 my
+                                    <portifolio</p>
+                                </footer>
+                            <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+                            </html>
+                                
+                                
+
+
